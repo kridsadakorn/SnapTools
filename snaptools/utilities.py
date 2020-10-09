@@ -163,7 +163,7 @@ def isBedQuerynameSorted(fname):
     flag = True;
     num_instance = 0
     for item in fin:
-        cur_barcode = str(item).split()[3];
+        cur_barcode = str(item).split()[3].split(':')[0];
         if num_instance == 0:
             prev_barcode = cur_barcode;
         num_instance += 1;
