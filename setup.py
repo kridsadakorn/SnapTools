@@ -1,6 +1,6 @@
 from setuptools import setup
 
-snaptools_version = '1.4.8'
+snaptools_version = '1.4.8-a.1'
 
 setup(
       name='snaptools',
@@ -9,7 +9,7 @@ setup(
       author_email='r4fang@gmail.com',
       license='LICENSE',
       packages=['snaptools'],
-      description='A module for working with snap files in Python',
+      description='A module for working with snap files in Python. Version 1.4.8-a.1 was edited by Kris (12/10/2020)',
       url='https://github.com/r3fang/SnapTools.git',
       python_requires='>=2.7',
       
